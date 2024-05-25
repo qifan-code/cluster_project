@@ -115,7 +115,7 @@ for (i in 2:20){
   sil <- c(sil, mean(silhouette(k_median$clustering, dist(df, method = "euclidean"))[, 3]))
 }
 
-plot(2:max_clusters, sil, type = "b", pch = 19, frame = FALSE,
+plot(2:20, sil, type = "b", pch = 19, frame = FALSE,
      xlab = "Number of clusters K",
      ylab = "Average silhouette width",
      main = "Silhouette Method for K-median Clustering")
