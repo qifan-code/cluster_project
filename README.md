@@ -22,6 +22,15 @@ Other package in R:
 |PAMK|3|
 |DBSCAN|2|
 
+# My Challenge: 
+1. I cant find NbCluster or PAMK package or any other similar ones in Python.
+2. For DBSCAN, I couldnt implement proper eps selection functions. Therefore, my strategy is to use loop. With minimal number of noise points, I select the best silhouette score. And based on original data, there are 2 clusters. Therefore, I am much more prefer to get 2 clusters in DBSCAN.
+3. For final cluster plot, I see there are pretty much "noises" so I believe 2 or 3 cluster may not be the optimal solution.
+   
+# TODO:
+1. Implement cluster in Python.
+2. Improve cluster methods in both R and Python.
+
 # Plot for each method
 ![K-mean WSS](https://github.com/qifan-code/cluster_project/assets/64823500/e67b92b2-1d87-4f98-a942-3ddbc7a15688)
 For WSS, I need find "knee" point which means before this point, slope is very high, but after this point, the plot becomes flatten. 
