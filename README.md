@@ -11,6 +11,8 @@ Traditional Methods:
 |k-mean|3-6|3          |5          |
 |k-median|x|3|3|
 
+The reason why I use k-median is there are outliers in dataset. For K-mean method, it is sensitive to outliers but for K-median method, we can avoid this issue.
+
 Other package in R:
 |Method|Number of Clusters|
 |------|------------------|
@@ -31,9 +33,20 @@ For gap stastic, I need to find max SE.sim and that row represents for the best 
 This is WSS for K-median method, I cant find any "knee" points therefore on the table above under k-median WSS method, I mark "X". 
 ![K-median sil](https://github.com/qifan-code/cluster_project/assets/64823500/255a1351-41d3-491e-a87d-804a35377ff7)
 This is K-median Silhouette score plot. 
-
-
-
+![K-median gap](https://github.com/qifan-code/cluster_project/assets/64823500/b62f7953-fb2f-4dcc-a356-1e9743e9635e)
+This is K-median Gap Stastic plot
+![NbCluster_mean](https://github.com/qifan-code/cluster_project/assets/64823500/6fabbe07-168e-4c97-9eb9-21f84b6a62f6)
+This is NbCluster Plot-mean method
+![NbCluster_median](https://github.com/qifan-code/cluster_project/assets/64823500/7a146be1-7f9c-4f6e-a1de-0d2ec656ced9)
+This is NbCluster Plot-median method
+![NbCluster_centroid](https://github.com/qifan-code/cluster_project/assets/64823500/b2d6d9e6-72f4-45da-a024-5b52ebacbebf)
+This is NbCluster Plot-centroid method
+![PAMK](https://github.com/qifan-code/cluster_project/assets/64823500/f614e57e-d859-4bb9-9523-763e910b92e9)
+This is PAMK method Plot
+![final_cluster_2](https://github.com/qifan-code/cluster_project/assets/64823500/2df014ce-240b-4ba4-a768-57d02fa1461f)
+This is final cluster - 2 clusters
+![final_cluster_3](https://github.com/qifan-code/cluster_project/assets/64823500/55c18e9b-f14b-45cd-b08f-7418be509f68)
+This is final cluster - 3 clusters
 
 
 
