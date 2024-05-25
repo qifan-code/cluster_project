@@ -23,7 +23,7 @@ Other package in R:
 |DBSCAN|2|
 
 # Plot for each method
-<img src = "https://github.com/qifan-code/cluster_project/assets/64823500/b9ea05ff-3c08-4fa0-b1e3-a41ceaf5e422", width = 500px, height = 500px/>
+![K-mean WSS](https://github.com/qifan-code/cluster_project/assets/64823500/e67b92b2-1d87-4f98-a942-3ddbc7a15688)
 For WSS, I need find "knee" point which means before this point, slope is very high, but after this point, the plot becomes flatten. 
 ![K-mean Sil](https://github.com/qifan-code/cluster_project/assets/64823500/d7ede7d8-d8d1-48ce-94bd-5bf57d29b861)
 For Silhouette score, I need find the highest one. 
