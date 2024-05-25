@@ -10,3 +10,13 @@ Traditional Methods:
 |------|---|-----------|-----------|
 |k-mean|3-6|3          |5          |
 |k-median|x|3|3|
+
+Other package in R:
+|Method|Number of Clusters|
+|------|------------------|
+|NbCluster-mean|2, 4|
+|NbCluster-median|2|
+|NbCluster-centroid|2|
+|PAMK|3|
+|DBSCAN|2|
+
